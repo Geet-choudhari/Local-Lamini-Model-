@@ -24,9 +24,9 @@ Alternatively, create a project directory on your local machine, install the thr
 ## Step 2: Create a Virtual Environment
 
 Create a virtual environment using Conda or Venv and install all the dependencies:
-\`\`\`bash
+```
 pip install -r requirements.txt
-\`\`\`
+```
 
 ## Step 3: Install the LLM Model Locally
 
