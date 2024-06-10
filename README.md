@@ -12,9 +12,9 @@
 
 ### Clone Repository
 Once you have installed Git, you can clone the repository to get all the files:
-\`\`\`bash
+```
 git clone https://github.com/Geet-choudhari/Local-Lamini-Model
-\`\`\`
+```
 
 ### Manual Installation
 Alternatively, create a project directory on your local machine, install the three Python files manually, and create two folders named \`db\` and \`docs\` in the same directory.
@@ -38,25 +38,25 @@ We will use the LaMini-T5-738M model.
 
 ### Install the Model
 Run the following commands to install the model locally in the same repository:
-\`\`\`bash
+```
 git lfs install
 git clone https://huggingface.co/MBZUAI/LaMini-T5-738M
-\`\`\`
+```
 
 ## Step 4: Prepare the Data
 
 Place your PDF files in the \`docs\` folder. To create embeddings for the files, run the following script:
-\`\`\`bash
+```
 python ingest.py
-\`\`\`
+```
 This will create embeddings and a vector database file in the \`db\` folder.
 
 ## Step 5: Run the Model
 
 To activate the model and start the application, run:
-\`\`\`bash
+```
 streamlit run app.py
-\`\`\`
+```
 """
 
 
